@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+div{
+	width:100px;
+	height:100px;
+	background:red;
+	animation: pulse-animation 1s infinite;
+}
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px red;
+  }
+  100% {
+    box-shadow: 0 0 0 20px red;
+  }
+}
